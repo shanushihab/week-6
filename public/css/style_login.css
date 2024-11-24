@@ -1,0 +1,86 @@
+/* Background */
+body {
+  background: linear-gradient(135deg, #e9f5ec, #b5d8b5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container Styling */
+.container {
+  max-width: 400px;
+  margin-top: 80px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+  color: #155724;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Form Labels */
+.form-label {
+  font-weight: bold;
+  color: #155724;
+}
+
+/* Form Inputs */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #b5d8b5;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #1925cc;
+  border-color: #91a9ec;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1e9939;
+  border-color: #1e7e34;
+}
+
+/* Alerts */
+.alert {
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.alert-danger {
+  background-color: #dc3545;
+}
+
+/* Links */
+.text-center a {
+  color: #28a745;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text-center a:hover {
+  color: #218838;
+}
+
+/* Text */
+.form-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: #155724;
+}

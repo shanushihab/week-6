@@ -1,0 +1,91 @@
+/* Body */
+body {
+  background: linear-gradient(135deg, #e9f5ec, #b5d8b5); /* Soft green gradient */
+  font-family: Arial, sans-serif; /* Modern font */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* No margin */
+}
+
+/* Heading */
+h1 {
+  color: #155724; /* Dark green for contrast */
+  text-align: center; /* Center align */
+  font-weight: bold; /* Emphasize heading */
+  margin-bottom: 20px; /* Space below */
+}
+
+/* Form */
+form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 30px; /* Extra padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow */
+  width: 100%;
+  max-width: 350px; /* Responsive width */
+}
+
+/* Labels */
+label {
+  display: block; /* Block display */
+  margin-bottom: 8px; /* Space below label */
+  color: #555; /* Medium gray for clarity */
+  font-weight: bold; /* Emphasize label text */
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Full width */
+  padding: 12px; /* Comfortable padding */
+  margin-bottom: 15px; /* Space between inputs */
+  border: 1px solid #b5d8b5; /* Soft green border */
+  border-radius: 8px; /* Rounded corners */
+  box-sizing: border-box; /* Adjust for padding */
+}
+
+input:focus {
+  border-color: #28a745; /* Highlight green */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Glow effect */
+}
+
+/* Button */
+button {
+  background-color: #28a745; /* Green button */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 12px; /* Padding inside button */
+  border-radius: 50px; /* Circular corners */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 16px; /* Larger text */
+  font-weight: bold; /* Emphasized text */
+  width: 100%; /* Full width button */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Links */
+a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none; /* No underline */
+  font-weight: bold; /* Bold link text */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #0056b3; /* Darker blue */
+}
+
+/* Form Group */
+.form-group {
+  text-align: center; /* Center text */
+  margin-top: 15px; /* Space above links */
+}
